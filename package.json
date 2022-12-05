@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/Lichapa/portfolio/issues"
   },
-  "homepage": "https://github.com/Lichapa/portfolio#readme"
+  "homepage": "https://github.com/Lichapa/portfolio#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.10.2"
+  }
 }
