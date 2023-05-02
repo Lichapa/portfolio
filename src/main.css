@@ -7,3 +7,31 @@ body {
 .nav-btn {
   color: #ccd6f6;
 }
+
+.nav-link {
+  position: relative;
+}
+.line {
+  position: absolute;
+  bottom: -0;
+  left: -2px;
+  width: 2px;
+  height: 100%;
+  background-color: #fff;
+  transform: scaleX(0);
+  transition: transform 0.2s ease-out;
+}
+.nav-link.active .line {
+  transform: scaleX(1);
+  color: rgb(89, 231, 89);
+}
+
+.tab-content,
+.nav-link,
+.nav {
+  background-color: inherit !important;
+}
+
+.tab-content {
+  border-top: none;
+}
